@@ -1,0 +1,22 @@
+{% extends 'base.html'%}{% block content %}
+
+
+
+<div class="bg-image" 
+     style="background-image: url('https://www.easa.europa.eu/sites/default/files/styles/original_image_topic/public/ifu/covid-19-web_1.jpg?itok=osxXyeXV');
+            height: 100vh">
+             <h1 style="text-align: center;">FACE MASK DETECTION WEB APPS IN FLASK</h1>
+            <div style="justify-content: center; display: flex;">
+                <div style="margin-top: 70px;">
+                   
+<img src="{{ url_for('video') }}">
+
+                </div>
+            </div>
+            
+            
+</div>
+
+
+
+{% endblock %}
